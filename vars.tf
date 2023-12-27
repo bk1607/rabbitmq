@@ -1,2 +1,2 @@
-variable "sub_ids" {}
+#variable "sub_ids" {}
 variable "instance_type" {}

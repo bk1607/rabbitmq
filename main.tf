@@ -4,7 +4,7 @@ resource "aws_spot_instance_request" "rabbitmq" {
   spot_type = "persistent"
   instance_interruption_behavior = "stop"
   wait_for_fulfillment = true
-  subnet_id = var.sub_ids[0]
+  #subnet_id = var.sub_ids[0]
 
 
 }
