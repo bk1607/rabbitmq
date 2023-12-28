@@ -9,9 +9,9 @@ resource "aws_spot_instance_request" "rabbitmq" {
 
 
 }
-
-resource "aws_ec2_tag" "tag1" {
-  resource_id = aws_spot_instance_request.rabbitmq.spot_instance_id
-  key         = "Name"
-  value       = "rabbitmq"
-}
+#
+#resource "aws_ec2_tag" "tag1" {
+#  resource_id = aws_spot_instance_request.rabbitmq.spot_instance_id
+#  key         = "Name"
+#  value       = "rabbitmq"
+#}
